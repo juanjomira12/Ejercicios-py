@@ -10,13 +10,13 @@ while True:
     opcion = input("\nQue algoritmo quieres ver? ")
 
     if opcion == "6":
-        exec(open("ejercicio6.py", encoding="utf-8").read())
+        exec(open("ejercicio6.py").read())
     elif opcion == "18":
-        exec(open("primosgit.py", encoding="utf-8").read())
+        exec(open("primosgit.py").read())
     elif opcion == "21":
-        exec(open("ejercicio-21.py", encoding="utf-8").read())
+        exec(open("ejercicio-21.py").read())
     elif opcion == "23":
-        exec(open("ejercicio23.py", encoding="utf-8").read())
+        exec(open("ejercicio23.py").read())
     else:
         print("Opcion no valida")
 
