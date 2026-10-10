@@ -1,8 +1,9 @@
-print("=== EJERCICIOS EQUIPO MIRALLANTAS ===")
+print("=== EJERCICIOS EQUIPO COCOSETES ===")
 
 while True:
     print("\nAlgoritmos disponibles:")
     print("6  - Clasificacion de temperaturas")
+    print("9  - Calculadora de impuesto")
     print("18 - Numeros primos")
     print("21 - Pares e impares")
     print("23 - Promedio de calificaciones")
@@ -11,6 +12,8 @@ while True:
 
     if opcion == "6":
         exec(open("ejercicio6.py").read())
+    elif opcion == "9":
+        exec(open("ejercicio_9.py").read())
     elif opcion == "18":
         exec(open("primosgit.py").read())
     elif opcion == "21":
